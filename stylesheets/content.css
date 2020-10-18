@@ -3,12 +3,12 @@ body{
   margin: 0 auto;
   background: white;
   font-family: IBM Plex Serif;
-  height: 11473px;
+  height: 11295px;
   display: block;
   position: relative;
 
 }
-body::before{
+/* body::before{
   content: "";
   position: absolute;
   left: 0;
@@ -18,7 +18,7 @@ body::before{
   height: 100%;
   display: block;
   opacity: .2;
-}
+} */
 html{
   position: relative;
   height: 100%;
@@ -260,9 +260,8 @@ top: 1161px;
   left: 306px;
 top: 1499px;
 }
-.bigger p {
-
-width: 931px;
+.bigger  {
+width: 910px;
 height: 150px;
 font-size: 32px;
 line-height: 42px;
@@ -495,26 +494,177 @@ width: 31px;
 .pattern {
   width: 1105px;
   margin: 37px auto;
+  background: white;
+  display: block;
+  position: relative;
+  height: 1105px;
 }
 .pattern::before {
   content: "";
   position: absolute;
   top: 0px;
-  width: 1105px;
-  background: url( '../images/pattern.png');
+  left: 0px;
+  right: 0px;
+  background: url( '../images/patternz.jpg');
+  height: 100%;
+  display: block;
 
-  opacity: 1;
 
 }
 .ground {
-  position: relative;
+  position: absolute;
   width: 51px;
   height: 51px;
   border-radius: 50%;
   background: #95CCFF;
   display: block;
 }
-/* #ground1 {
-  left: 285;
- top: 5000px;
-} */
+
+#ground1 {
+left: 4.3%;
+top: 18.55%;
+}
+
+#ground2 {
+left: 47.8%;
+top: 18.55%;
+}
+#ground3 {
+left: 91.1%;
+top: 18.55%;
+}
+#ground4 {
+  left: 4.3%;
+  top: 47.6%;
+}
+#ground5 {
+left: 47.8%;
+top: 47.6%;
+}
+#ground6 {
+left: 91.1%;
+top: 47.6%;
+}
+#ground7 {
+left: 4.3%;
+top: 76.38%;
+}
+#ground8 {
+left: 47.8%;
+top: 76.38%;
+}
+#ground9 {
+left: 91.1%;
+top: 76.38%;
+}
+.conzent {
+  height: 503px;
+}
+.text {
+  position: absolute;
+
+  margin: 230px 0px 0px 495px;
+ width: 682px;
+ height: 118px;
+}
+.focus {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -119px;
+}
+.ibmblock {
+  margin-top: 150px;
+}
+.ibm {
+  width: 818px;
+  height: 229px;
+  background: #00CE52;
+  color: white;
+  padding: 42px 359px 42px 103px;
+}
+.itogblock {
+  width: 1280px
+  margin: 0px;
+}
+.itog {
+  margin-top: 0px;
+  margin-left: 103px;
+  width: 844px;
+  height: 134px;
+}
+#now {
+  width: 547px;
+  height: 42px;
+  margin: 68px auto 0px;
+}
+.strelka {
+  display: block;
+  margin: 15px auto 100px;
+
+}
+.praktik {
+  margin-top: 130px;
+  width: 1280px;
+  margin-bottom: 50px;
+}
+.praktik p {
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 62px;
+color: black;
+margin-left: 103px;
+height: 45px;
+width: 550px;
+padding-bottom: 15px;
+border-bottom: 2px solid #00CE52;
+
+}
+.praktik img {
+  margin: 30px auto;
+  display: block;
+
+}
+#vydoh {
+  margin-left: 95px;
+  margin-top: 25px;
+}
+#finish {
+  width: 681px;
+  height: 41px;
+  margin: 285px auto 150px;
+}
+.endbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 117px;
+  background: rgba(0, 206, 82);
+  padding: 0 103px;
+
+}
+.endbar p {
+
+  font-family: IBM Plex Serif;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+
+}
+.link {
+  width: 43px;
+  padding-left: 8px;
+}
+.push {
+margin: 20px 0px 0px 1115px;
+}
+.knopka {
+  width: 52px;
+height: 18px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #00CE52;
+margin: -2px 0px 26px 1122px;
+}
