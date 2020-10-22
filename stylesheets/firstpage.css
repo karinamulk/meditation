@@ -1,0 +1,172 @@
+body{
+  width: 1280px;
+  margin: 0 auto;
+  background: white;
+  font-family: IBM Plex Serif;
+  height: 11295px;
+  display: block;
+  position: relative;
+
+}
+/* body::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: url( '../images/maket.jpg');
+  height: 100%;
+  display: block;
+  opacity: .2;
+} */
+html{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  background: rgba(0, 206, 82);
+  padding: 0 100px;
+  border-bottom: 2px solid white;
+}
+.menubar a {
+  color: inherit;
+  text-decoration: none;
+  font-family: IBM Plex Serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+.firstpage {
+
+height: 1047px;
+background: rgba(0, 206, 82);
+}
+.firstpage p, h1 {
+color: #FFFFFF;
+font-family: IBM Plex Serif;
+font-style: normal;
+}
+.firstpage h1 {
+position: absolute;
+width: 1054px;
+height: 125px;
+left: 113px;
+top: 262px;
+font-weight: bold;
+font-size: 96px;
+line-height: 125px;
+}
+#vmeste {
+  position: absolute;
+width: 187px;
+height: 62px;
+left: 881px;
+top: 717px;
+font-weight: 300;
+font-size: 48px;
+}
+#zach {
+  position: absolute;
+width: 122px;
+height: 47px;
+left: 800px;
+top: 466px;
+font-weight: 300;
+font-size: 36px;
+}
+#kak {
+  position: absolute;
+width: 104px;
+height: 62px;
+left: 249px;
+top: 535px;
+font-weight: 300;
+font-size: 48px;
+}
+#otdel {
+  position: absolute;
+  width: 248px;
+  height: 47px;
+  left: 150px;
+  top: 918px;
+  font-weight: 300;
+  font-size: 36px;
+}
+.big, .small{
+position: absolute;
+border-radius: 50%;
+border: 2px solid #FFFFFF;
+width: 160px;
+height: 160px;
+}
+.small {
+  width: 80px;
+  height: 80px;
+}
+#a {
+  left: 74px;
+  top: 101px;
+}
+#b {
+  left: 723px;
+  top: 101px;
+}
+#v {
+  left: 398px;
+top: 415px;
+}
+#c {
+  left: 1046px;
+top: 415px;
+}
+#d {
+  left: 398px;
+top: 750px;
+}
+#e {
+  left: 722px;
+top: 750px;
+}
+#f {
+  left: 600px;
+  top: 194px;
+}
+#g {
+  left: 275px;
+  top: 401px;
+}
+#i {
+  left: 600px;
+  top: 401px;
+}
+#k {
+  left: 924px;
+  top: 194px;
+}
+#l {
+  left: 924px;
+  top: 597px;
+}
+#m {
+  left: 600px;
+  top: 731px;
+}
+#n {
+  left: 275px;
+  top: 731px;
+}
+#o {
+  left: 88px;
+  top: 833px;
+}
+#p {
+  left: 178px;
+  top: 986px;
+}
