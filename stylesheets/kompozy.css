@@ -1,0 +1,121 @@
+.square1 {
+width: 214px;
+height: 213px;
+background: #00CE52;
+position: absolute;
+}
+.square2 {
+  width: 214px;
+  height: 213px;
+  background: #95CCFF;
+  position: absolute;
+}
+#z1 {
+  left: 0px;
+top: 3349px;
+}
+#z2 {
+  left: 853px;
+  top: 3562px;
+}
+#z3 {
+  left: 639px;
+  top: 3775px;
+}
+#z4 {
+  left: 214px;
+  top: 4201px;
+}
+#z5 {
+  left: 852px;
+  top: 4201px;
+}
+#z6 {
+  left: 1065px;
+  top: 4414px;
+}
+
+#g1 {
+  left: 1066px;
+  top: 3349px;
+}
+#g2 {
+  left: 213px;
+  top: 3775px;
+}
+#g3 {
+  left: 853px;
+  top: 3775px;
+}
+#g4 {
+  left: 639px;
+  top: 3988px;
+}
+#g5 {
+  left: 1065px;
+  top: 3988px;
+}
+#g6 {
+  left: 852px;
+  top: 4414px;
+}
+.square3 {
+  width: 214px;
+  height: 213px;
+  position: absolute;
+  overflow: hidden;
+}
+#b1 {
+  left: 214px;
+top: 3349px;
+}
+#b2 {
+  left: 0px;
+  top: 4201px;
+}
+#b3 {
+  left: 425px;
+top: 3562px;
+}
+#b4 {
+  left: 425px;
+top: 3988px;
+}
+#b5 {
+  left: 0px;
+top: 4414px;
+}
+.bukvy {
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: 600;
+font-size: 332px;
+line-height: 432px;
+position: relative;
+}
+#bukvac {
+left: 19px;
+top: -53px;
+}
+#bukvam {
+left: -17px;
+top: -215px;
+}
+#bukvac, #bukvam {
+  color: #00CE52;
+}
+#bukvaa {
+left: -80px;
+top: -127px;
+}
+#bukvaf {
+left: 0px;
+top: -95px;
+}
+#bukvach {
+left: 9px;
+top: -107px;
+}
+#bukvaa, #bukvaf, #bukvach {
+  color: #95CCFF;
+}
